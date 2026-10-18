@@ -126,3 +126,6 @@ dialog::backdrop{background:#000a}
 .dctl{display:flex;flex-wrap:wrap;gap:.6rem}.dctl label{display:flex;flex-direction:column;font-size:.8rem;font-weight:700}
 .dctl input,.dctl select{font-size:16px;padding:.3rem;border:1px solid #888;border-radius:6px}
 .mini.off{opacity:.55}
+.mo{color:var(--navy);text-decoration:none}.mo:hover{text-decoration:underline}
+.mfl{display:inline-flex;align-items:center;gap:6px;color:var(--ink);text-decoration:none}
+.mf .dlink{margin-top:0;padding:.15rem .6rem;font-size:.78rem}
