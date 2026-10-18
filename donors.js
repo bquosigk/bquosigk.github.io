@@ -1,4 +1,4 @@
-(function(){var t=document.getElementById('dtab');if(!t)return;var tb=t.tBodies[0],q=document.getElementById('dq'),ty=document.getElementById('dtype'),mn=document.getElementById('dmin'),ct=document.getElementById('dcount'),cz=document.getElementById('dcause'),cats={};
+(function(){var t=document.getElementById('dtab');if(!t)return;var tb=t.tBodies[0],q=document.getElementById('dq'),ty=document.getElementById('dtype'),mn=document.getElementById('dmin'),ct=document.getElementById('dcount'),cz=document.getElementById('dcause'),cats={};if(cz){var up=new URLSearchParams(location.search).get('cause');if(up){up=(up==='all'||up==='any')?'any':up;if([].some.call(cz.options,function(o){return o.value===up;}))cz.value=up;}}
 var rows=null,key='amount',dir=-1,LIMIT=500;var f=function(v){return '$'+v.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});};
 var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
 function czc(z){var c=(z.gifts||[]).map(function(g){return g.category;});if(z.direct)c.push(z.direct.category);return c;}

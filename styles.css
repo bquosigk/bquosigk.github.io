@@ -132,3 +132,7 @@ dialog::backdrop{background:#000a}
 .pill{display:inline-block;background:#fde68a;color:#1f2937;border:1px solid #b45309;border-radius:999px;padding:.05rem .5rem;font-size:.75rem;font-weight:700;line-height:1.5;white-space:nowrap}
 .cz{margin-top:.2rem}.cz summary{cursor:pointer;list-style:none}.cz summary::-webkit-details-marker{display:none}.cz summary::after{content:" ▸";font-size:.75rem;color:#78350f}.cz[open] summary::after{content:" ▾"}
 .cz ul{margin:.25rem 0 0;padding-left:1.1rem;font-size:.8rem;color:#1f2937}.cz li{margin:.1rem 0}.cznote{background:#fffbeb;border-left:3px solid #b45309;padding:.4rem .6rem}
+.bdg{display:flex;flex-wrap:wrap;gap:.25rem;justify-content:center;margin-top:.25rem}
+.cpill,.sbadge{display:inline-block;border-radius:999px;padding:.05rem .5rem;font-size:.72rem;font-weight:700;line-height:1.5;text-decoration:none;color:#1f2937}
+.cpill.lo{background:#e5e7eb;border:1px solid #6b7280}.cpill.mid{background:#fde68a;border:1px solid #b45309}.cpill.hi{background:#fcd34d;border:2px solid #78350f}
+.sbadge{background:#fff;border:1px solid #9ca3af;font-weight:600}.mf .bdg{justify-content:flex-start}
