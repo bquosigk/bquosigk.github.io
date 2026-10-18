@@ -118,3 +118,11 @@ dialog::backdrop{background:#000a}
 .jump select:focus{outline:3px solid #f5c542;outline-offset:1px}
 .jump noscript a{color:#fff}
 @media(max-width:600px){.jump label{flex:1 1 40%}.jump #js-racel{flex-basis:100%}}
+/* donors */
+.dlink{display:inline-block;margin-top:.35rem;font-size:.8rem;font-weight:700;color:#1f1d3d;text-decoration:underline}
+.tw{overflow-x:auto}.dt{width:100%;border-collapse:collapse;font-size:.88rem;margin:.5rem 0 1rem}
+.dt th,.dt td{border-bottom:1px solid #ddd;padding:.35rem .45rem;text-align:left;vertical-align:top}.dt .num{text-align:right;white-space:nowrap}
+.dt th button{font:inherit;font-weight:700;background:none;border:0;padding:0;cursor:pointer;text-decoration:underline}
+.dctl{display:flex;flex-wrap:wrap;gap:.6rem}.dctl label{display:flex;flex-direction:column;font-size:.8rem;font-weight:700}
+.dctl input,.dctl select{font-size:16px;padding:.3rem;border:1px solid #888;border-radius:6px}
+.mini.off{opacity:.55}

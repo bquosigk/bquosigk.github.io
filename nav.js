@@ -1,5 +1,5 @@
 (function(){var go=function(e){var v=e.target.value;if(v&&v!==location.pathname)location.href=v;};
-var s=document.getElementById('js-state'),c=document.getElementById('js-county');if(s)s.onchange=go;if(c)c.onchange=go;
+['js-state','js-election','js-county'].forEach(function(i){var e=document.getElementById(i);if(e)e.onchange=go;});
 var r=document.getElementById('js-race'),l=document.getElementById('js-racel');if(!r)return;var items=[];
 document.querySelectorAll('a.mini').forEach(function(a){var o=a.querySelector('.mo');items.push([a.getAttribute('href'),o?o.textContent:a.textContent]);});
 document.querySelectorAll('section.race[id]').forEach(function(x){var h=x.querySelector('h2');items.push(['#'+x.id,h?h.firstChild.textContent:x.id]);});
