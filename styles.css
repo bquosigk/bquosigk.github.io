@@ -118,6 +118,7 @@ dialog::backdrop{background:#000a}
 .jump select:focus{outline:3px solid #f5c542;outline-offset:1px}
 .jump noscript a{color:#fff}
 @media(max-width:600px){.jump label{flex:1 1 40%}.jump #js-racel{flex-basis:100%}}
+.jump label[hidden]{display:none}  /* .jump label{display:flex} overrode [hidden]: blank Race select on single-race pages */
 /* donors */
 .dlink{display:inline-block;margin-top:.45rem;padding:.3rem .8rem;font-size:.85rem;font-weight:700;color:#1f1d3d;background:#fff;border:2px solid #c8102e;border-radius:999px;text-decoration:none}.dlink:hover,.dlink:focus{background:#c8102e;color:#fff}
 .tw{overflow-x:auto}.dt{width:100%;border-collapse:collapse;font-size:.88rem;margin:.5rem 0 1rem}
