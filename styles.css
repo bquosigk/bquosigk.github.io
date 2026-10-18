@@ -96,7 +96,7 @@ dialog::backdrop{background:#000a}
 .mini{display:block;background:#fff;border:1px solid var(--line);border-left:6px solid var(--navy);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--ink)}
 .mini:hover{border-color:var(--navy)}
 .mo{display:block;font-weight:800;margin-bottom:6px}
-.mfs{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.88rem}
+.mfs{display:flex;flex-direction:column;align-items:flex-start;gap:8px;font-size:.88rem}
 .mf{display:inline-flex;align-items:center;gap:6px}
 .mf img,.mf i{width:36px;height:45px;object-fit:cover;border-radius:4px;background:#dcdbe8;display:inline-flex;align-items:center;justify-content:center;font-style:normal;font-weight:800;color:#777;font-size:.8rem}
 .mf em{font-style:normal;font-size:.7rem;font-weight:800;color:#fff;border-radius:3px;padding:0 4px}
