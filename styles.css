@@ -136,3 +136,4 @@ dialog::backdrop{background:#000a}
 .cpill,.sbadge{display:inline-block;border-radius:999px;padding:.05rem .5rem;font-size:.72rem;font-weight:700;line-height:1.5;text-decoration:none;color:#1f2937}
 .cpill.lo{background:#e5e7eb;border:1px solid #6b7280}.cpill.mid{background:#fde68a;border:1px solid #b45309}.cpill.hi{background:#fcd34d;border:2px solid #78350f}
 .sbadge{background:#fff;border:1px solid #9ca3af;font-weight:600}.mf .bdg{justify-content:flex-start}
+.onb{display:block;font-size:.72rem;color:#555;font-style:italic;line-height:1.2;margin-top:.1rem}
