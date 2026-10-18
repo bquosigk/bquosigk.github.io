@@ -73,7 +73,8 @@ select,input{font:inherit;font-size:1rem;padding:10px 12px;border-radius:8px;bor
 .race-foot button{font:inherit;font-size:.85rem;font-weight:700;border:2px solid var(--navy);color:var(--navy);background:#fff;border-radius:8px;padding:8px 14px;min-height:42px}
 mark{background:#fff3a3}
 .box{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:6px 16px;margin:10px 0}
-.box li{margin:8px 0}
+.box li{margin:8px 0;overflow-wrap:anywhere}
+ul.box,ol.box{padding:8px 16px 8px 36px}
 .extras h2,.method h2{font-size:1.15rem;margin:26px 0 6px}
 .method{font-size:.92rem}
 .small{font-size:.8rem;color:var(--muted)}
