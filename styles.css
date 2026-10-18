@@ -152,3 +152,5 @@ dialog::backdrop{background:#000a}
 .sform button{font:inherit;font-weight:800;font-size:1rem;width:100%;min-height:48px;border:0;border-radius:8px;background:var(--navy);color:#fff;cursor:pointer}
 .sform button:hover,.sform button:focus{background:var(--navy2)}
 .sform .hp{display:none!important}
+.sform .serr{font-size:.88rem;color:#8a1c1c;background:#fdecec;border-left:4px solid var(--R);padding:8px 10px;margin:0 0 12px}
+.sform button:disabled{opacity:.7;cursor:progress}

@@ -32,12 +32,19 @@
 <label for="sf-email">Your email</label>
 <input id="sf-email" name="email" type="email" required autocomplete="email" inputmode="email" maxlength="254">
 <p class="note">We only add information we can verify from the source. We&#39;ll email you our decision.</p>
-<button type="submit">Send suggestion</button>
+<p class="serr" id="sf-err" role="alert" hidden></p>
+<button type="submit" id="sf-btn">Send suggestion</button>
 </form>
 <script>(function(){var q=new URLSearchParams(location.search),c=(q.get('c')||'').slice(0,200),r=(q.get('r')||'').slice(0,200),s=(q.get('s')||'').slice(0,60),
 g=function(i){return document.getElementById(i)};if(c){g('sf-c').value=c;g('sf-c').readOnly=true;g('sf-subj').value='Source suggestion: '+c;}
 g('sf-race').value=r;g('sf-state').value=s;if(r||s){var x=g('sf-ctx');x.textContent=[r,s].filter(Boolean).join(' · ');x.hidden=false;}
 g('sf-c').oninput=function(){g('sf-subj').value='Source suggestion: '+this.value;};
-var t=g('sf-what'),n=g('sf-n');t.oninput=function(){n.textContent=t.value.length.toLocaleString('en-US')+' / 1,000';};})();</script></main>
+var t=g('sf-what'),n=g('sf-n');t.oninput=function(){n.textContent=t.value.length.toLocaleString('en-US')+' / 1,000';};
+var f=g('sf'),btn=g('sf-btn'),err=g('sf-err'),done='https://usvoterguide.info/suggest/thanks/';
+f.addEventListener('submit',function(e){if(!window.fetch)return;e.preventDefault();var d={};new FormData(f).forEach(function(v,k){d[k]=v;});
+if(d._honey){location.href=done;return;}err.hidden=true;btn.disabled=true;btn.textContent='Sending…';
+fetch('https://formsubmit.co/ajax/ca0c79fd383d1f306f9203a7e4e63f24',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(d)})
+.then(function(r){return r.json().catch(function(){return {};});}).then(function(j){if(String(j.success)==='true')location.href=done;else throw new Error(j.message||'');})
+.catch(function(x){err.textContent='Sorry, your suggestion could not be sent'+(x&&x.message?' ('+x.message+')':'')+'. Please try again in a minute.';err.hidden=false;btn.disabled=false;btn.textContent='Send suggestion';});});})();</script></main>
 <footer class="foot wrap">Ratings marked “Faith &amp; Freedom Coalition” are FFC's own (paid for by the Coalition; not authorized by any candidate or candidate's committee). Candidate excerpts are verbatim and linked to their sources. Donor tables are copied from official filings. This site carries no advertising. <a href="/about/">Methodology &amp; corrections</a></footer>
 <script src="/nav.js" defer></script></body></html>
