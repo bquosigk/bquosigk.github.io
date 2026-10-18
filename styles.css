@@ -137,3 +137,17 @@ dialog::backdrop{background:#000a}
 .cpill.lo{background:#e5e7eb;border:1px solid #6b7280}.cpill.mid{background:#fde68a;border:1px solid #b45309}.cpill.hi{background:#fcd34d;border:2px solid #78350f}
 .sbadge{background:#fff;border:1px solid #9ca3af;font-weight:600}.mf .bdg{justify-content:flex-start}
 .onb{display:block;font-size:.72rem;color:#555;font-style:italic;line-height:1.2;margin-top:.1rem}
+/* suggest a source */
+.slink{display:block;margin-top:.35rem;font-size:.7rem;color:#aeacc8;text-decoration:underline;text-underline-offset:2px}.slink:hover,.slink:focus{color:#fff}
+.sform{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px 16px 16px;margin:10px 0 20px;max-width:640px}
+.sform label{display:block;font-size:.8rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--navy);margin:14px 0 4px}
+.sform label:first-of-type{margin-top:2px}
+.sform input,.sform textarea{font:inherit;font-size:16px;width:100%;border:1px solid #b9bacb;border-radius:8px;padding:10px 12px;background:#fff;color:var(--ink)}
+.sform textarea{min-height:130px;resize:vertical;line-height:1.4}
+.sform input:focus,.sform textarea:focus{outline:3px solid #f5c542;outline-offset:1px;border-color:var(--navy)}
+.sform input[readonly]{background:#f3f3f7;color:#3a3a48;font-weight:700}
+.sform .small{margin:4px 0 0}.sform .right{text-align:right}
+.sform .note{font-size:.88rem;background:#f7f7fb;border-left:4px solid var(--navy);padding:8px 10px;margin:16px 0 12px}
+.sform button{font:inherit;font-weight:800;font-size:1rem;width:100%;min-height:48px;border:0;border-radius:8px;background:var(--navy);color:#fff;cursor:pointer}
+.sform button:hover,.sform button:focus{background:var(--navy2)}
+.sform .hp{display:none!important}

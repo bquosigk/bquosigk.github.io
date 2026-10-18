@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suggest a Source | Know Your Ballot</title><meta name="description" content="Send us a source about a candidate: an X post, campaign site, news story or official record.">
+<link rel="canonical" href="https://usvoterguide.info/suggest/"><meta name="robots" content="noindex,follow">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Know Your Ballot">
+<meta property="og:title" content="Suggest a Source | Know Your Ballot"><meta property="og:description" content="Send us a source about a candidate: an X post, campaign site, news story or official record.">
+<meta property="og:url" content="https://usvoterguide.info/suggest/"><meta property="og:image" content="https://usvoterguide.info/img/og-default.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#1f1d3d">
+<link rel="stylesheet" href="/styles.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://usvoterguide.info/"}, {"@type": "ListItem", "position": 2, "name": "Suggest a source", "item": "https://usvoterguide.info/suggest/"}]}</script></head><body>
+<header class="top"><div class="wrap"><a class="brand" href="/">KNOW YOUR BALLOT</a>
+<p class="sub">Contested races · candidate photos, names &amp; positions · every claim sourced · no ads</p></div></header>
+<div class="vote">VOTE TUESDAY, NOVEMBER 3, 2026<small>Check your state’s official voter portal for your exact ballot</small></div>
+<main class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <span>Suggest a source</span></nav><h1 class="ph1">Suggest a source</h1>
+<p class="lead">Know of a public statement or record we are missing? Send us the link.</p>
+<form class="sform" id="sf" action="https://formsubmit.co/usvoterguide@mail.grokbot.com" method="POST" accept-charset="UTF-8">
+<input type="hidden" name="_subject" id="sf-subj" value="Source suggestion">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="https://usvoterguide.info/suggest/thanks/">
+<input type="hidden" name="race" id="sf-race" value="">
+<input type="hidden" name="state" id="sf-state" value="">
+<input type="text" name="_honey" class="hp" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+<label for="sf-c">Candidate</label>
+<input id="sf-c" name="candidate" type="text" required maxlength="200" autocomplete="off">
+<p class="small" id="sf-ctx" hidden></p>
+<label for="sf-url">Source link</label>
+<input id="sf-url" name="source_url" type="url" required inputmode="url" placeholder="https://" maxlength="2000">
+<p class="small">An X post, campaign website, news story or official record.</p>
+<label for="sf-what">What the source shows</label>
+<textarea id="sf-what" name="what_it_shows" required maxlength="1000" rows="5" placeholder="For example: the candidate's stated position on property taxes, in their own words."></textarea>
+<p class="small right" id="sf-n" aria-live="polite">0 / 1,000</p>
+<label for="sf-email">Your email</label>
+<input id="sf-email" name="email" type="email" required autocomplete="email" inputmode="email" maxlength="254">
+<p class="note">We only add information we can verify from the source. We&#39;ll email you our decision.</p>
+<button type="submit">Send suggestion</button>
+</form>
+<script>(function(){var q=new URLSearchParams(location.search),c=(q.get('c')||'').slice(0,200),r=(q.get('r')||'').slice(0,200),s=(q.get('s')||'').slice(0,60),
+g=function(i){return document.getElementById(i)};if(c){g('sf-c').value=c;g('sf-c').readOnly=true;g('sf-subj').value='Source suggestion: '+c;}
+g('sf-race').value=r;g('sf-state').value=s;if(r||s){var x=g('sf-ctx');x.textContent=[r,s].filter(Boolean).join(' · ');x.hidden=false;}
+g('sf-c').oninput=function(){g('sf-subj').value='Source suggestion: '+this.value;};
+var t=g('sf-what'),n=g('sf-n');t.oninput=function(){n.textContent=t.value.length.toLocaleString('en-US')+' / 1,000';};})();</script></main>
+<footer class="foot wrap">Ratings marked “Faith &amp; Freedom Coalition” are FFC's own (paid for by the Coalition; not authorized by any candidate or candidate's committee). Candidate excerpts are verbatim and linked to their sources. Donor tables are copied from official filings. This site carries no advertising. <a href="/about/">Methodology &amp; corrections</a></footer>
+<script src="/nav.js" defer></script></body></html>
