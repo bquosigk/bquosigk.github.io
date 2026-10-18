@@ -129,3 +129,6 @@ dialog::backdrop{background:#000a}
 .mo{color:var(--navy);text-decoration:none}.mo:hover{text-decoration:underline}
 .mfl{display:inline-flex;align-items:center;gap:6px;color:var(--ink);text-decoration:none}
 .mf .dlink{margin-top:0;padding:.15rem .6rem;font-size:.78rem}
+.pill{display:inline-block;background:#fde68a;color:#1f2937;border:1px solid #b45309;border-radius:999px;padding:.05rem .5rem;font-size:.75rem;font-weight:700;line-height:1.5;white-space:nowrap}
+.cz{margin-top:.2rem}.cz summary{cursor:pointer;list-style:none}.cz summary::-webkit-details-marker{display:none}.cz summary::after{content:" ▸";font-size:.75rem;color:#78350f}.cz[open] summary::after{content:" ▾"}
+.cz ul{margin:.25rem 0 0;padding-left:1.1rem;font-size:.8rem;color:#1f2937}.cz li{margin:.1rem 0}.cznote{background:#fffbeb;border-left:3px solid #b45309;padding:.4rem .6rem}

@@ -1,1 +1,1 @@
-{"f":["name","amount","count","date","type","employer","occupation","city","state"],"rows":[["Texans for Charles Schwertner Campaign",80000.0,2,"2026-03-10","Organization","","","Georgetown","TX"]]}
+{"f":["name","amount","count","date","type","employer","occupation","city","state","cz"],"cats":{"abortion-rights":"Abortion rights","racial-justice":"Racial justice / BLM","lgbtq-advocacy":"LGBTQ advocacy","identity-politics":"Identity-based / DEI advocacy"},"rows":[["Texans for Charles Schwertner Campaign",80000.0,2,"2026-03-10","Organization","","","Georgetown","TX"]]}

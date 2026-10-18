@@ -1,1 +1,1 @@
-{"f":["name","amount","count","date","type","employer","occupation","city","state"],"rows":[["Texans for Abbott",2856.0,2,"2026-09-17","Organization","","","Austin","TX"]]}
+{"f":["name","amount","count","date","type","employer","occupation","city","state","cz"],"cats":{"abortion-rights":"Abortion rights","racial-justice":"Racial justice / BLM","lgbtq-advocacy":"LGBTQ advocacy","identity-politics":"Identity-based / DEI advocacy"},"rows":[["Texans for Abbott",2856.0,2,"2026-09-17","Organization","","","Austin","TX"]]}
