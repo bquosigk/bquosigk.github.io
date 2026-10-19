@@ -154,3 +154,14 @@ dialog::backdrop{background:#000a}
 .sform .hp{display:none!important}
 .sform .serr{font-size:.88rem;color:#8a1c1c;background:#fdecec;border-left:4px solid var(--R);padding:8px 10px;margin:0 0 12px}
 .sform button:disabled{opacity:.7;cursor:progress}
+/* support link (plain Stripe Payment Link) */
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.sup{display:inline-block;font-weight:700;text-decoration:none;border-radius:999px;white-space:nowrap;line-height:1.2}
+.sup-top{flex:none;font-size:.8rem;color:#fff;border:1.5px solid #fff9;padding:.32rem .75rem}
+.sup-top:hover,.sup-top:focus{background:#fff;color:var(--navy);border-color:#fff}
+@media(max-width:480px){.sup-long{display:none}.sup-top{font-size:.78rem;padding:.3rem .65rem}.brand{font-size:1.38rem}}
+.nw{white-space:nowrap}
+.supf{text-align:center;padding:4px 0 16px;margin-bottom:14px;border-bottom:1px solid var(--line)}
+.sup-foot{font-size:.9rem;color:var(--navy);background:#fff;border:2px solid var(--navy);padding:.45rem 1.1rem}
+.sup-foot:hover,.sup-foot:focus{background:var(--navy);color:#fff}
+.supf p{margin:8px 0 0;font-size:.78rem;color:var(--muted)}
