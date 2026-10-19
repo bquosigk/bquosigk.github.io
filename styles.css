@@ -165,3 +165,12 @@ dialog::backdrop{background:#000a}
 .sup-foot{font-size:.9rem;color:var(--navy);background:#fff;border:2px solid var(--navy);padding:.45rem 1.1rem}
 .sup-foot:hover,.sup-foot:focus{background:var(--navy);color:#fff}
 .supf p{margin:8px 0 0;font-size:.78rem;color:var(--muted)}
+/* voting record (official roll calls) */
+.vrec{border-top:1px solid var(--line);padding:10px 12px 12px;background:#fcfcfd}
+.vrec .t{font-weight:800;font-size:.95rem;margin-bottom:4px}
+.vrec ul{list-style:none;margin:0;padding:0}
+.vrec li{font-size:.84rem;line-height:1.4;padding:5px 0;border-bottom:1px solid #eeeef3}
+.vrec li:last-child{border-bottom:0}
+.vrec li b{white-space:nowrap}
+.vrec .vv{font-weight:800}.vrec .vv.y{color:#21693a}.vrec .vv.n{color:#8a1c1c}
+.vrec .vsrc{font-size:.72rem;color:var(--muted);margin:6px 0 0}
