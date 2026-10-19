@@ -174,3 +174,16 @@ dialog::backdrop{background:#000a}
 .vrec li b{white-space:nowrap}
 .vrec .vv{font-weight:800}.vrec .vv.y{color:#21693a}.vrec .vv.n{color:#8a1c1c}
 .vrec .vsrc{font-size:.72rem;color:var(--muted);margin:6px 0 0}
+.ph2{font-size:1.1rem;margin:18px 0 4px}
+.prec{border-top:1px solid var(--line);background:#fcfcfd}
+.prec summary{cursor:pointer;font-weight:800;font-size:.95rem;padding:10px 12px;list-style-position:inside}
+.prec[open] summary{padding-bottom:4px}
+.prec .ps{padding:2px 12px 4px}
+.prec .pt{font-size:.74rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:6px 0 2px}
+.prec ul{list-style:none;margin:0;padding:0}
+.prec li{font-size:.84rem;line-height:1.4;padding:5px 0;border-bottom:1px solid #eeeef3;overflow-wrap:anywhere}
+.prec li:last-child{border-bottom:0}
+.prec .pm{display:block;font-size:.76rem;color:var(--muted);margin-top:1px}
+.prec .vv{font-weight:800}.prec .vv.y{color:#21693a}.prec .vv.n{color:#8a1c1c}
+.prec q{font-style:italic}
+.prec .psrc{font-size:.72rem;color:var(--muted);margin:4px 12px 12px}
