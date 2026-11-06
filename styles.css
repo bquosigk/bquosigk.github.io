@@ -66,7 +66,22 @@ select,input{font:inherit;font-size:1rem;padding:10px 12px;border-radius:8px;bor
 .pos q{display:block;font-size:.95rem;color:#2a2a35}
 .pos .src{font-size:.72rem;color:var(--muted);margin-top:4px}
 .tag{display:inline-block;font-size:.62rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;border-radius:4px;padding:1px 6px;margin-right:4px;vertical-align:1px}
-.tag.campaign{background:#e6f0fb;color:#1d4f91}.tag.survey{background:#e9f6ec;color:#21693a}.tag.news{background:#fdf1e1;color:#8a4b00}.tag.social{background:#f4e8fb;color:#6b2a8f}
+.tag.campaign{background:#e6f0fb;color:#1d4f91}.tag.survey{background:#e9f6ec;color:#21693a}.tag.news{background:#fdf1e1;color:#8a4b00}.tag.social{background:#f4e8fb;color:#6b2a8f}.tag.vote{background:#fde8ea;color:#8d1d2c}.tag.debate{background:#efe8fb;color:#5b2d86}.tag.interview{background:#e7f6f4;color:#0f6b62}
+.vnote{margin:0;font-size:.95rem;color:#2a2a35}
+.eres{margin:0 0 14px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fafafc}
+.eres h2,.eres h3{margin:0 0 8px;font-size:1rem}
+.eres h3{font-size:.95rem}
+.eres table{width:100%;border-collapse:collapse;font-size:.92rem}
+.eres td,.eres th{padding:6px 4px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+.eres .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.eres tr.win td{font-weight:700}
+.ustat{display:inline-block;font-size:.68rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;background:#fdf1e1;color:#8a4b00;border-radius:4px;padding:1px 6px;margin-left:6px;vertical-align:2px}
+.winmark{display:inline-block;font-size:.68rem;font-weight:800;letter-spacing:.03em;text-transform:uppercase;color:#21693a;background:#e9f6ec;border-radius:4px;padding:1px 6px}
+.pty{display:inline-block;font-size:.68rem;font-weight:800;color:#fff;border-radius:3px;padding:0 4px}
+.pty.R{background:var(--R)}.pty.D{background:var(--D)}.pty.N{background:var(--N)}
+.contrast{font-size:.92rem;background:#f7f4ea;border:1px solid #e4d7b0;border-radius:8px;padding:10px 12px;margin:0 0 12px}
+.contrast b{display:block;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:#6b5420;margin-bottom:4px}
+.regbox{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:4px 14px 8px;margin:12px 0}
 .none{padding:14px 12px;font-style:italic;color:var(--muted)}
 .cnote{font-size:.8rem;color:var(--muted);padding:8px 12px;border-bottom:1px solid var(--line);background:#fcfcfd}
 .race-foot{display:flex;justify-content:center;gap:8px;background:#fff;padding:0 12px 14px;flex-wrap:wrap}
